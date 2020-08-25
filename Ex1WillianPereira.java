@@ -9,7 +9,8 @@ public class Main{
 
 		System.out.println("Digite um valor inteiro: ");
 		int valor = input.nextInt();
-		if (valor % 2 == 0){ System.out.println(valor + " é par!"); }
-		else{ System.out.println(valor + " é impar!");}
+		for (int i = 0; i < 10; i++){
+			System.out.println(valor + "*" + i + "=" + (valor * i));
+		}
 	}
 }
